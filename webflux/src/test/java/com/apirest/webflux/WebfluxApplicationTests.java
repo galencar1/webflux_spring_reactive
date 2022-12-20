@@ -7,7 +7,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 class WebfluxApplicationTests {
 
 	@Test
-	void contextLoads() {
+	void main() {
+		WebfluxApplication.main(new String[] {});
 	}
 
 }
